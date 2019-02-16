@@ -6,6 +6,6 @@ $(document).ready(function () {
 		$(this).prop('disabled', true);
 		var myInfo = $(this),
 			myUrl = myInfo.data('image');
-		$('#aids-img').attr('src', myURL);
+		$('#aids-img').attr('src', myUrl);
 	});
 });
